@@ -1,14 +1,14 @@
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 
-choco install teamviewer.host --version 15.40.8.0 -y
-choco install vscode --version 1.76.2 -y
-choco install vlc --version 3.0.18 -y
-choco install 7zip --version 22.1 -y
-choco install chromium --version 111.0.5563.147 -y
-choco install putty --version 0.78 -y
-choco install mobaxterm --version 23.0.0 -y
-choco install jre8 --version 8.0.361 -y
-choco install sysinternals --version 2023.3.9 -y
-choco install treesizefree --version 4.6.3 -y
-choco install azure-cli --version 2.46.0 -y
-choco install microsoftazurestorageexplorer --version 1.28.1 -y
+choco install teamviewer.host -y
+choco install vscode -y
+choco install vlc -y
+choco install 7zip -y
+choco install chromium -y
+choco install putty -y
+choco install mobaxterm -y
+choco install jre8 -y
+choco install sysinternals -y
+choco install treesizefree -y
+choco install azure-cli -y
+choco install microsoftazurestorageexplorer -y
